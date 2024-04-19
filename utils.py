@@ -70,7 +70,7 @@ def chat_interaction(client, temperature, max_tokens):
         # Make the chat completion request
         stream = client.chat.completions.create(
             messages=conversation_history,
-            model='mixtral-8x7b-32768',
+            model='llama3-8b-8192',
             temperature=temperature,
             max_tokens=int(max_tokens),
             stream=True

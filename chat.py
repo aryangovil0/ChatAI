@@ -30,7 +30,7 @@ print("\n\n")
 print(Color.PURPLE_BOLD + "Created by Aryan Govil" + Color.RESET)
 print()
 print(Color.RED_BOLD + "Powered by Groq LPU" + Color.RESET)
-print(Color.ORANGE + "Model: Mixtral-8x7b-32768" + Color.RESET)
+print(Color.ORANGE + "Model: llama3-8b-8192" + Color.RESET)
 print()
 
 def main():
